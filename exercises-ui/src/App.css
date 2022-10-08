@@ -1,0 +1,104 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:whitesmoke;
+  color:#D81C23;
+  margin:auto;
+  padding: 20px;
+}
+
+h1 {
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+input {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 3px;
+  height: 25px;
+  font-size: 15px;
+  border-radius: 4px;
+  border-color: #4FA8C2;
+  border-style: solid;
+  padding: 5px;
+  box-shadow: -2px 2px #4FA8C2;
+}
+
+button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 3px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 4px;
+  border-color: #D81C23;
+  border-style: solid;
+  background-color: whitesmoke;
+  color:#D81C23;
+  padding: 5px;
+  box-shadow: -2px 2px;
+}
+
+button:active {
+  background-color: #D81C23;
+  color: whitesmoke;
+  box-shadow: -2px 2px;
+}
+
+select {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 38px;
+  margin: 3px;
+  font-size: 15px;
+  border-radius: 4px;
+  border-color: #4FA8C2;
+  border-style: solid;
+  padding: 5px;
+  box-shadow: -3px 3px #4FA8C2;
+}
+
+.navIcon {
+  color: #4FA8C2;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid whitesmoke;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #e9a684; color: whitesmoke}
+tr:nth-child(odd){color: #4FA8C2}
+
+
+tr:hover {background-color: #4FA8C2; color: whitesmoke}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #D97441;
+  color: white;
+}
